@@ -2,6 +2,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import StockChart from "@/components/stock-chart";
 
+export async function generateStaticParams() {
+  // Misalnya hanya pre-generate 3 kode saham
+  const stockCodes = ['BBCA', 'BBRI', 'TLKM'];
+
+  return stockCodes.map((code) => ({
+    code,
+  }));
+}
+
 export default function StockDetailPage({
   params,
 }: {
