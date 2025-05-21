@@ -8,9 +8,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-3">
             <Link href="/" className="flex items-center gap-2 font-bold">
-              <CircleDollarSign className="h-6 w-6 text-primary" />
-              <span>SahamKita</span>
-            </Link>
+            <img 
+              src="https://www.svgrepo.com/show/370769/stock.svg" 
+              alt="Logo SahamKita" 
+              className="h-12 w-12 dark:invert" // `dark:invert` agar warnanya menyesuaikan tema gelap
+            />
+            <span className="hidden md:inline-block">SahamKita</span>
+          </Link>
             <p className="text-sm text-muted-foreground">
               Solusi lengkap untuk investasi saham di Indonesia. Dapatkan informasi pasar, analisis, dan berita terkini.
             </p>

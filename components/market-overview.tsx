@@ -10,7 +10,7 @@ export default function MarketOverview() {
   return (
     <Card className="border shadow-sm">
       <CardHeader className="pb-3">
-        <CardTitle>Ikhtisar Pasar</CardTitle>
+        <CardTitle>Ringkasan Pasar</CardTitle>
         <CardDescription>Indeks utama pasar saham Indonesia</CardDescription>
       </CardHeader>
       <CardContent>

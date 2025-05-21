@@ -8,7 +8,7 @@ export default function MarketPage() {
     <div className="container space-y-8 px-4 py-8 md:px-6 md:py-10">
       <section className="space-y-2">
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          Ikhtisar Pasar
+          Ringkasan Pasar
         </h1>
         <p className="text-lg text-muted-foreground">
           Informasi terkini tentang pasar saham Indonesia
